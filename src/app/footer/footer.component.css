@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.footer {
+    background-color: #f6f4f3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    border-right: 4px solid #CC3F0C;
+    margin: 10px 10px 5px 10px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #3772FF;
+}
+
+a:visited {
+    color: #735CDD;
+}
+
+.social-icon-link {
+    fill: #3772FF;
+}
+
+.social-icon-link :hover {
+    fill: #735CDD;
+    transition: fill 166ms ease-in;
+}
+
+#socials {
+    text-align: center;
+}
+
+#socials a {
+    display: inline-block;
+    margin: 5px;
+}

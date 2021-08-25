@@ -1,0 +1,9 @@
+<div class="event-container">
+    <ng-container *ngFor="let d of dates">
+        <div class="date-element">{{d | date:"fullDate"}}</div>
+        <ng-container *ngFor="let smashEvent of smashGGEvents">
+            <app-event class="event-card" *ngIf="(d | date:'shortDate') == (smashEvent.startTime | date:'shortDate')"
+                [smashGGEvent]="smashEvent"></app-event>
+        </ng-container>
+    </ng-container>
+</div>

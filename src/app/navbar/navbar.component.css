@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #f6f4f3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    border-right: 4px solid #CC3F0C;
+    margin: 10px 10px 5px 10px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #3772FF;
+}
+
+a:visited {
+    color: #735CDD;
+}
+
+.nav-element {
+    padding: 5px;
+    margin: 5px;
+}
+
+.input-list-games {
+    padding: 2px;
+}
+
+.input-submit-search {
+    border-radius: 0px;
+    border: solid 1px;
+    padding: 2px 4px;
+}
+
+.input-submit-search:active {
+    border-radius: 0px;
+    border: solid 0px;
+    padding: 2px 4px;
+}
+
+.title-container {
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+}

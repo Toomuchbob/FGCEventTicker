@@ -1,0 +1,9 @@
+<div class="navbar">
+    <div class="select-container">
+        <label for="games" class="nav-element">Select Game:</label>
+        <select class="input-list-games nav-element" [(ngModel)]="game" name="games" (change)="setSelectedGame(game)">
+            <option *ngFor="let g of games" [ngValue]="g">{{g.name}}</option>
+        </select>
+    </div>
+    <span class="title-container nav-element">{{game.name}}</span>
+</div>
