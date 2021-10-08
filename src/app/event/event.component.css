@@ -13,12 +13,6 @@ a:visited {
     color: #735CDD;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    margin: 5px;
-}
-
 .grid-container {
     display: grid;
     background-color: #f6f4f3;
@@ -27,6 +21,7 @@ a:visited {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     border-right: 4px solid #CC3F0C;
+    margin: 5px 10px;
 }
 
 .grid-item-content {

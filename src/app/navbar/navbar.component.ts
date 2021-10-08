@@ -15,7 +15,8 @@ export class NavbarComponent implements OnInit {
 
   games: Game[] = [
     new Game('Guilty Gear: STRIVE', 33945),
-    new Game('Street Fighter V', 33990)
+    new Game('Street Fighter V', 33990),
+    new Game('Melty Blood: Type Lumina', 36865)
   ];
 
   constructor(private navigation: NavigationService) { }
